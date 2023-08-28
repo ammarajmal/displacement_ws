@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   camera_info_manager_py
 )
-catkin_python_setup()
+#catkin_python_setup()
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES camera_driver_gige
@@ -17,7 +17,7 @@ include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
 )
-catkin_install_python(PROGRAMS
-  scripts/cam_node.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
+#catkin_install_python(PROGRAMS
+#  scripts/cam_node.py
+#  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#)
